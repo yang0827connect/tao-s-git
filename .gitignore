@@ -1,0 +1,58 @@
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- 编辑器 / IDE ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.iml
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ---- Node.js ----
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+coverage/
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ---- 编译产物 ----
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ---- 本地配置 ----
+.local/
+*.local
